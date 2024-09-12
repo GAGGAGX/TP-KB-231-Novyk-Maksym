@@ -1,9 +1,9 @@
 print("Let's discriminate the numbers!")
 exreload = 1
 while exreload != 0:
-    b = int(input( "b: "))
-    a = int(input( "a: "))
-    c = int(input( "c: "))
+    b = int(input("b: "))
+    a = int(input("a: "))
+    c = int(input("c: "))
     D = (b^2)-4*a*c
     if D <= 0:
         if D == 0:
