@@ -15,4 +15,3 @@ while exreload != 0:
     else:
         print("Discriminant:", D)
         exreload = int(input("Again? 1/0: "))
-    
