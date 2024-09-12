@@ -1,0 +1,17 @@
+print("Let's discriminate the numbers!")
+exreload = 1
+while exreload != 0:
+    b = int(input( "b: "))
+    a = int(input( "a: "))
+    c = int(input( "c: "))
+    D = (b^2)-4*a*c
+    if D <= 0:
+        if D == 0:
+            print("Discriminant:", D)
+            exreload = int(input("Again? 1/0: "))
+        else:
+            print("Discriminant doesn`t exist") #If you don't use complex numbers
+            exreload = int(input("Again? 1/0: "))
+    else:
+        print("Discriminant:", D)
+        exreload = int(input("Again? 1/0: "))
