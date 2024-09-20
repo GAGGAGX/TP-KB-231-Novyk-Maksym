@@ -1,4 +1,0 @@
-text = "  yyYOUr tEXt"
-print("original:", text, " ", "strip():", text.strip(), " ", "title():", text.title(), " ", "upper():", text.upper(), " ", "lower():", text.lower())
-text1 = "specifically for capitalization"
-print("original:", text1, " ","capitalize():", text1.capitalize())
