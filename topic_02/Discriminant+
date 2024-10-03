@@ -1,0 +1,20 @@
+print("Let's discriminate the numbers!")
+exreload = 1
+while exreload != 0:
+    a = int(input("a: "))
+    b = int(input("b: "))
+    c = int(input("c: "))
+    D = (b**2)-4*a*c
+    if D > 0:
+        print("Discriminant:", D)
+        print("First root: ", (-b+D**0.5)/(2*a), "Second root: ", (-b-D**0.5)/(2*a))
+        exreload = int(input("Again? 1/0: "))
+    elif D == 0:
+        print("Discriminant:", D)
+        print("Root: ", (-b)/(2*a))
+        exreload = int(input("Again? 1/0: "))
+    else:
+        print("Discriminant doesn`t exist") #If you don't use complex numbers
+        exreload = int(input("Again? 1/0: "))
+
+        
