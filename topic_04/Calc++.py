@@ -33,8 +33,8 @@ def calc(a, b):
         case "^":
             return a ** b
         
-exreload = 1
-while exreload != 0:
+exreload = "y"
+while exreload in ['y', 'yes']:
     a, b = inp()
     result = calc(a, b)
     print("Result:", result)
