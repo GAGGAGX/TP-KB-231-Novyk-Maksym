@@ -15,14 +15,9 @@ def calc(a, b):
             res = deg(a, b)
     print("Result:", res)
 
-load = "y"
-while load in ['y', 'yes']:
+while True:
     a, b = inp()
     calc(a, b)
-    while True:
-        load = input("Again? Y/N: ")
-        if load.lower().strip() in ['y', 'n', 'yes', 'no']:
-            break
-        else:
-            print("Selection error.\n")
+    if (input("Enter exit to end the programm: ")) == "exit":
+        exit(0)
         
