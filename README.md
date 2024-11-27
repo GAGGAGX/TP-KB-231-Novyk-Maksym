@@ -14,3 +14,7 @@ Add a folder topic_04. Add assignments for Calc+, Calc++.
 # 2024-11-12
 Add a folder topic_05. Add assignments for Calc, CurrencyConverter, RockScissorPaper.
 
+# 2024-11-27
+Add a folder topic_06. Add assignments for Calc, Sort.
+
+
